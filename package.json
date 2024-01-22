@@ -19,6 +19,7 @@
   "peerDependencies": {
     "postcss": "^7.0.35 || ^8.1.5"
   },
+  "repository": "dingzc2450/postcss-add-root-selectors",
   "devDependencies": {
     "clean-publish": "^1.1.8",
     "eslint": "^7.14.0",
