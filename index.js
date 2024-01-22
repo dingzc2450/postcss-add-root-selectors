@@ -133,7 +133,7 @@ const makeRootProcessor = (opts) => (root) => {
   }
 }
 
-const pluginName = 'postcss-add-root-selector'
+const pluginName = 'postcss-add-root-selectors'
 
 const versionFormat = (postcss) => {
   const isPostCSSv8 = postcss.Root !== undefined
