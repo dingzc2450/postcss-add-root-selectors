@@ -1,6 +1,6 @@
 {
   "name": "postcss-add-root-selectors",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "PostCSS plugin adds root selectors to all other rules",
   "keywords": [
     "postcss",
