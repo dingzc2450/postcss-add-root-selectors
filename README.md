@@ -108,7 +108,7 @@ body {
 **Step 1:** Install plugin:
 
 ```sh
-npm install --save-dev postcss postcss-add-root-selector
+npm install --save-dev postcss postcss-add-root-selectors
 ```
 
 **Step 2:** Check you project for existed PostCSS config: `postcss.config.js`
@@ -123,7 +123,7 @@ and set this plugin in settings.
 ```diff
 module.exports = {
   plugins: [
-+   require('postcss-add-root-selector'),
++   require('postcss-add-root-selectors'),
     require('autoprefixer')
   ]
 }
@@ -131,11 +131,11 @@ module.exports = {
 
 ### Gulp
 
-In Gulp you can use [gulp-postcss] with `postcss-add-root-selector` npm package.
+In Gulp you can use [gulp-postcss] with `postcss-add-root-selectors` npm package.
 
 ```js
-gulp.task('postcss-add-root-selector', () => {
-  const addRootSelector = require('postcss-add-root-selector')
+gulp.task('postcss-add-root-selectors', () => {
+  const addRootSelector = require('postcss-add-root-selectors')
   const sourcemaps = require('gulp-sourcemaps')
   const postcss = require('gulp-postcss')
 
@@ -155,7 +155,7 @@ with [other PostCSS plugins].
 
 ### Webpack
 
-In [webpack] you can use [postcss-loader] with `postcss-add-root-selector`
+In [webpack] you can use [postcss-loader] with `postcss-add-root-selectors`
 and [other PostCSS plugins].
 
 ```js
@@ -201,7 +201,7 @@ And create a `postcss.config.js` with:
 ```js
 module.exports = {
   plugins: [
-    require('postcss-add-root-selector')({
+    require('postcss-add-root-selectors')({
       include: ['some-style-lib.css'],
       rootSelector: '.my-root',
     })
