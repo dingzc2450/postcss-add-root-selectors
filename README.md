@@ -227,3 +227,7 @@ Available options are:
 [postcss-loader]:        https://github.com/postcss/postcss-loader
 [webpack]:               https://webpack.js.org/
 [official docs]: https://github.com/postcss/postcss#usage
+
+## Originated from
+
+<https://github.com/trailskr/postcss-add-root-selector>
