@@ -102,7 +102,6 @@ const makeRuleProcessor = (opts = {}) => {
     rule.nodes = selfApplied
   }
   return (rule) => {
-    console.log("%c Line:104 🍕 rule", "color:#2eafb0", rule);
     opts.rootSelectors.forEach((rootSelector, index) => {
       const newRule = index === opts.rootSelectors.length - 1 ? rule : rule.cloneBefore()
       oneRule(rootSelector, newRule)
